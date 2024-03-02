@@ -6,6 +6,9 @@ import lombok.Data;
 public class InputFields {
     String recipient;
     String subject;
+    String name;
     String body;
+    String bcc;
+    String cc;
 
 }

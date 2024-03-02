@@ -1,12 +1,6 @@
 
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-a
-1src/main/java/com/prashanth/EmailApplication.java,5\8\58badb4b06ff5481ee3ccf367e772495317c3557
-k
-;src/main/java/com/prashanth/service/EmailSenderService.java,9\3\93166ba1d369ab2f86ea35ff41f822554037c94f
-k
-;src/main/java/com/prashanth/controller/EmailController.java,c\5\c57d08423cf401b53202aa9a53a0a3ed6e6dbd66
 g
 7src/main/java/com/prashanth/email/EmailApplication.java,e\4\e4c0bd39b62986485af70e9d5cce6a7cf43c3f85
 q
@@ -19,8 +13,6 @@ n
 >src/main/java/com/prashanth/email/model/enums/OperationId.java,1\9\19ec891d20adfd86361576a751f2649e82e1bf52
 u
 Esrc/main/java/com/prashanth/email/service/EmailSenderServiceImpl.java,1\d\1da0ffdb62b5d1758d686dc748dd90501e3f4191
-n
->src/main/java/com/prashanth/email/model/enums/InputFields.java,e\b\eb5074adaf9e7f3886a71131f8f8e887be621331
 h
 8src/main/java/com/prashanth/email/model/InputFields.java,1\1\11cb34943d072324f4839091b5772d5ec3185d35
 j
@@ -44,3 +36,5 @@ S
 credit.iml,3\0\3055605cdb4fe69f239d3a143ec9a8d6d35a21db
 w
 G.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec,8\6\863e0292fd7e9b3e74dafd6cc01f73ba76346482
+g
+7src/main/java/com/prashanth/email/utils/CommonUtil.java,d\1\d186f940201e5f714dd8e57f8e1f7c501d30480a
