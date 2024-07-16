@@ -1,0 +1,9 @@
+com\prashanth\email\constants\Constants.class
+com\prashanth\email\service\EmailSenderServiceImpl.class
+com\prashanth\email\utils\ModelUtil.class
+com\prashanth\email\service\EmailSenderService.class
+com\prashanth\email\controller\EmailController.class
+com\prashanth\email\EmailApplication.class
+com\prashanth\email\model\enums\OperationId.class
+com\prashanth\email\utils\CommonUtil.class
+com\prashanth\email\model\InputFields.class
