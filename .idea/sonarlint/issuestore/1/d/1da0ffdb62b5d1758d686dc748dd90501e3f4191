@@ -1,0 +1,21 @@
+
+@	java:S106@"+Replace this use of System.out by a logger.(§ÃÆÙ
+X
+java:S1128"BRemove this unused import 'com.prashanth.email.model.InputFields'.(ŠïÉ•
+[
+java:S1128"@Remove this unused import 'com.prashanth.email.utils.ModelUtil'.(€îÎŞúÿÿÿÿ
+a
+java:S1128
+"FRemove this unused import 'org.apache.logging.log4j.util.TriConsumer'.(ªû¸°ÿÿÿÿÿ
+e
+java:S1128"JRemove this unused import 'org.springframework.core.io.InputStreamSource'.(ŠÑØ•üÿÿÿÿ
+T
+java:S1128"9Remove this unused import 'org.springframework.ui.Model'.(ê†ıÿÿÿÿ
+K
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ
+F
+java:S1128"0Remove this unused import 'java.io.InputStream'.(¹»º
+U
+java:S1128":Remove this unused import 'java.util.function.BiConsumer'.(¿ÍÅøÿÿÿÿ
+p
+java:S1128"URemove this unused import 'com.prashanth.email.model.enums.OperationId.EMAIL_FIELDS'.(àâÚ¿ùÿÿÿÿ
