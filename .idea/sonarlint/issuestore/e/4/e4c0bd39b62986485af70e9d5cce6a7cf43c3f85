@@ -1,0 +1,8 @@
+
+V	java:S125"<This block of commented-out lines of code should be removed.(°˜ç¡ûÿÿÿÿ
+^
+java:S1128"<Remove this unused import 'jakarta.mail.MessagingException'.(´öáùıÿÿÿÿ8·÷ä‹2
+v
+java:S1128"YRemove this unused import 'org.springframework.boot.context.event.ApplicationReadyEvent'.(Ğ‰“8·÷ä‹2
+n
+java:S1128	"LRemove this unused import 'org.springframework.context.event.EventListener'.(¦ñÛĞüÿÿÿÿ8·÷ä‹2

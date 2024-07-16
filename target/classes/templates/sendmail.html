@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Dynamic Form</title>
+</head>
+<link rel="stylesheet" th:href="@{/css/mail.css}">
+<body>
+
+<div class="transactionForm" id="transactionForm">
+    <h2><label>EMAIL SENDER</label></h2>
+    <form action="/processForm" method="post"  enctype="multipart/form-data">
+
+        <div class="recipientClass">
+            <h3><label class="recipient" for="recipient">Email Recipient</label></h3>
+            <input type="text" name="recipient" id="recipient" required autocomplete="off" value="rockyrocky123.7@gmail.com">
+        </div>
+        <div class="ccClass">
+            <h3><label class="cc" for="cc">CC</label></h3>
+            <input type="text" name="cc" id="cc"  autocomplete="off" value="luciferid123.7@gmail.com">
+
+        </div>
+        <div class="nameClass">
+            <h3><label class="name" for="name">Recipient Name</label></h3>
+            <input type="text" name="name" id="name" autocomplete="off">
+        </div>
+        <div class="subjectClass">
+            <h3><label class="subject" for="subject">Subject</label></h3>
+            <input type="text" name="subject" id="subject" autocomplete="off" value="My subject">
+        </div>
+        <div class="bodyClass">
+            <h3><label class="body" for="body">Email Body</label></h3>
+            <textarea id="body" name="body" rows="4" cols="50"></textarea>
+        </div>
+        <div class="attachmentsClass">
+            <h3><label class="attachments" for="attachments">Attachment</label></h3>
+            <input type="file" name="attachments" id="attachments" multiple>
+        </div>
+        <button>SUBMIT</button>
+    </form>
+</div>
+
+</body>
+</html>
