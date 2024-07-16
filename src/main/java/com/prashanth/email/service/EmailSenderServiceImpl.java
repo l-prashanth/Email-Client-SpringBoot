@@ -1,29 +1,18 @@
 package com.prashanth.email.service;
 
-import com.prashanth.email.model.InputFields;
-import com.prashanth.email.utils.ModelUtil;
 import jakarta.mail.MessagingException;
 import jakarta.mail.internet.MimeMessage;
 import lombok.AllArgsConstructor;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.logging.log4j.util.TriConsumer;
 import org.springframework.core.io.ByteArrayResource;
-import org.springframework.core.io.InputStreamSource;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Service;
-import org.springframework.ui.Model;
 import org.springframework.web.multipart.MultipartFile;
-
-import java.io.IOException;
-import java.io.InputStream;
 import java.util.List;
 import java.util.Objects;
-import java.util.function.BiConsumer;
-
 import static com.prashanth.email.constants.Constants.MY_MAIL;
-import static com.prashanth.email.model.enums.OperationId.EMAIL_FIELDS;
 import static com.prashanth.email.utils.CommonUtil.*;
 import static com.prashanth.email.utils.CommonUtil.messageFillerWithInputName;
 

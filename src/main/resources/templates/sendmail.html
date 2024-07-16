@@ -5,6 +5,30 @@
     <title>Dynamic Form</title>
 </head>
 <link rel="stylesheet" th:href="@{/css/mail.css}">
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var input = document.getElementById('attachments');
+        var label = document.getElementById('customFileLabel');
+        var info = document.getElementById('fileInfo');
+
+        input.addEventListener('change', function() {
+            updateFileInfo();
+        });
+
+        function updateFileInfo() {
+            if (input.files.length > 0) {
+                label.textContent = input.files.length + ' file(s) selected';
+                info.innerHTML = '<strong>Selected Files:</strong> ' + Array.from(input.files).map(file => file.name).join(', ');
+            } else {
+                label.textContent = 'Choose Files';
+                info.innerHTML = 'No file chosen';
+            }
+        }
+
+        // Initial update
+        updateFileInfo();
+    });
+</script>
 <body>
 
 <div class="transactionForm" id="transactionForm">
@@ -13,11 +37,11 @@
 
         <div class="recipientClass">
             <h3><label class="recipient" for="recipient">Email Recipient</label></h3>
-            <input type="text" name="recipient" id="recipient" required autocomplete="off" value="rockyrocky123.7@gmail.com">
+            <input type="text" name="recipient" id="recipient" required autocomplete="off">
         </div>
         <div class="ccClass">
             <h3><label class="cc" for="cc">CC</label></h3>
-            <input type="text" name="cc" id="cc"  autocomplete="off" value="luciferid123.7@gmail.com">
+            <input type="text" name="cc" id="cc"  autocomplete="off">
 
         </div>
         <div class="nameClass">
@@ -26,17 +50,24 @@
         </div>
         <div class="subjectClass">
             <h3><label class="subject" for="subject">Subject</label></h3>
-            <input type="text" name="subject" id="subject" autocomplete="off" value="My subject">
+            <textarea id="subject" name="subject" rows="4" cols="50" style="font-size: 15px"></textarea>
         </div>
         <div class="bodyClass">
             <h3><label class="body" for="body">Email Body</label></h3>
-            <textarea id="body" name="body" rows="4" cols="50"></textarea>
+            <textarea id="body" name="body" rows="4" cols="50" style="font-size: 15px"></textarea>
         </div>
         <div class="attachmentsClass">
             <h3><label class="attachments" for="attachments">Attachment</label></h3>
             <input type="file" name="attachments" id="attachments" multiple>
         </div>
+<!--        <div class="attachmentsClass">-->
+<!--            <h3><label class="attachments" for="attachments">Attachment</label></h3>-->
+<!--            <input type="file" name="attachments" id="attachments" multiple onchange="updateFileInfo(this)">-->
+<!--            <label for="attachments" class="custom-file-input" id="customFileLabel">Choose Files</label>-->
+<!--            <div class="file-info" id="fileInfo"></div>-->
+<!--        </div>-->
         <button>SUBMIT</button>
+
     </form>
 </div>
 

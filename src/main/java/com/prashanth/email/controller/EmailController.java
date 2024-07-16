@@ -28,15 +28,16 @@ public class EmailController {
     }
 
     @PostMapping("/processForm")
-    public String submitCreditCard(InputFields inputFields,@RequestParam("attachments") List<MultipartFile> attachments){
-        log.info("ALL"+inputFields);
+    public String submitCreditCard(InputFields inputFields, @RequestParam("attachments") List<MultipartFile> attachments) {
+        log.info("ALL" + inputFields);
         emailSenderService.sendSimpleEmail(inputFields.getRecipient(),
-                inputFields.getName(),inputFields.getSubject(), inputFields.getBody(),inputFields.getBcc(),
-                inputFields.getCc(),attachments);
+                inputFields.getName(), inputFields.getSubject(), inputFields.getBody(), inputFields.getBcc(),
+                inputFields.getCc(), attachments);
         return "redirect:/mail-status";
     }
+
     @GetMapping("/mail-status")
-    public String showForm( ) {
+    public String showForm() {
         return "status";
     }
 }

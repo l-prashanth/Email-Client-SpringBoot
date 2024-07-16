@@ -21,12 +21,8 @@ l
 <src/test/java/com/prashanth/email/EmailApplicationTests.java,f\9\f9d577c2c623e115fb23a6bb7ad782b064009507
 
 Q.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec,2\c\2cabb939da04d3de3a200bf2b575690e1a16316d
-
-Q.idea/sonarlint/securityhotspotstore/5/8/58badb4b06ff5481ee3ccf367e772495317c3557,9\8\98809df9e2d9f2e5126aca4c92494549aa5eb58e
 ]
 -.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
-w
-G.idea/sonarlint/issuestore/5/8/58badb4b06ff5481ee3ccf367e772495317c3557,a\e\aec2193ec9d03123e2af6d91df54910a2e685b8b
 S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
 9
@@ -38,3 +34,9 @@ w
 G.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec,8\6\863e0292fd7e9b3e74dafd6cc01f73ba76346482
 g
 7src/main/java/com/prashanth/email/utils/CommonUtil.java,d\1\d186f940201e5f714dd8e57f8e1f7c501d30480a
+:
+
+Dockerfile,6\6\6651ddff6eb82c840ced7c1dddee15c6e1913dd4
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
