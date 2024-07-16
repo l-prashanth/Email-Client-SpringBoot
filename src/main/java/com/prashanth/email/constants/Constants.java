@@ -1,7 +1,7 @@
 package com.prashanth.email.constants;
 
 public class Constants {
-    public static final String MY_MAIL = "prashanth.py0101@gmail.com";
+    public static final String MY_MAIL = "rockyrocky123.7@gmail.com";
     public static final String RECIPIENT_MODEL = "emailmodel";
     public static final String SUBJECT_MODEL = "subjectmodel";
     public static final String BODY_MODEL = "bodymodel";
