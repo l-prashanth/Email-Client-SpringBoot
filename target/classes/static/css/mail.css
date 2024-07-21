@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+:root {
+    color-scheme: light only;
+}
 body {
     display: flex;
     justify-content: center;
@@ -56,8 +58,8 @@ body {
 
 }
 #attachmentsClass {
-     background-color: #3b1c00;
-     color: #E1D9D1;
+    background-color: #3b1c00;
+    color: #E1D9D1;
 
 
 }
